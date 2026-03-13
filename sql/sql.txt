@@ -1,4 +1,15 @@
+````
 
+DESC sensor_data;
+
+Nome        Nulo?    Tipo         
+----------- -------- ------------ 
+ID          NOT NULL NUMBER       
+SENSOR_NAME          VARCHAR2(50) 
+READING              NUMBER       
+UNIT                 VARCHAR2(10) 
+
+````````
 
 Verifying the Data (The "Is it working?" Query)
 
