@@ -23,6 +23,9 @@ As an **OCI Certified professional**, I designed this architecture to prove that
 * **Scalable Design:** Hardware-agnostic logic that supports temperature, humidity, vibration, presence, and water level sensors.
 * **AI-Ready:** Project documentation and logic optimization assisted by **Gemini** and **NotebookLM**.
 
+
+![ESP32-S3](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/images/ESP32-S3.png)
+
 ---
 
 ## 🛠 Technical Architecture
