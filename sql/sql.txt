@@ -22,7 +22,7 @@ ORDER BY created_at DESC;
 
 Analyzing Trends (Data Science Basics)
 
-Queries to calculate averages or find the "peaks" in your hardware temperature to check for overheating.
+Queries to calculate averages or find the "peaks" in hardware temperature to check for overheating.
 
 ```sql
 -- Find the average temperature recorded today
@@ -31,13 +31,5 @@ FROM sensor_data
 WHERE created_at >= TRUNC(SYSDATE);
 
 ```
-
-Cleaning Up (DML)
-
-During testing, when the table gets filled with "Fake Temp" or "Test" data, you likely used this to clear the board:
-
-```sql
--- DANGER: This deletes all records but keeps the table structure
-TRUNCATE TABLE sensor_data;
 
 
