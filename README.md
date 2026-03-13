@@ -13,7 +13,6 @@ This project demonstrates a low-cost, scalable end-to-end IoT solution designed 
 
 As an **OCI Certified professional**, I designed this architecture to prove that enterprise-grade cloud tools can be seamlessly integrated with edge computing for high-performance results.
 
-![Diagrama do Projeto](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/docs/Diagram.png)
 ---
 
 ## 🚀 Key Features
@@ -33,6 +32,8 @@ The system follows a 3-tier architecture:
 1. **Edge Layer:** ESP32 (Station) collects sensor data and connects via Wi-Fi.
 2. **Transport Layer:** Data is sent via HTTPS/REST to the OCI gateway.
 3. **Cloud Layer:** Oracle Autonomous Database stores and organizes the data for real-time analysis and dashboarding.
+
+![Diagrama do Projeto](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/docs/Diagram.png)
 
 ---
 
