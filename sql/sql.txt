@@ -1,0 +1,32 @@
+
+
+Verifying the Data (The "Is it working?" Query)
+
+This is the command you run most often to check if your ESP32-S3 successfully pushed the temperature data to the cloud.
+
+SELECT * FROM sensor_data 
+ORDER BY created_at DESC;
+
+```
+
+Analyzing Trends (Data Science Basics)
+
+Queries to calculate averages or find the "peaks" in your hardware temperature to check for overheating.
+
+```sql
+-- Find the average temperature recorded today
+SELECT AVG(reading) as avg_temp, MAX(reading) as max_temp
+FROM sensor_data
+WHERE created_at >= TRUNC(SYSDATE);
+
+```
+
+Cleaning Up (DML)
+
+During testing, when the table gets filled with "Fake Temp" or "Test" data, you likely used this to clear the board:
+
+```sql
+-- DANGER: This deletes all records but keeps the table structure
+TRUNCATE TABLE sensor_data;
+
+
