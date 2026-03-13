@@ -41,8 +41,9 @@ The system follows a 3-tier architecture:
 
 * `/src`: Contains the `main.py` and configuration files for the ESP32 (MicroPython).
 * `/sql`: Database schema and initialization scripts for Oracle ADW.
-* `/docs`: Technical diagrams and project illustrations.
+* `/docs`: Technical diagrams.
 * `/notebooks`: Data analysis exports and visualization logic.
+* `/images`: Images to ilustrate the Project.
 
 ---
 
