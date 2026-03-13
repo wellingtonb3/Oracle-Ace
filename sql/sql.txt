@@ -13,7 +13,7 @@ UNIT                 VARCHAR2(10)
 
 Verifying the Data (The "Is it working?" Query)
 
-This is the command you run most often to check if your ESP32-S3 successfully pushed the temperature data to the cloud.
+This is the command we run most often to check if your ESP32-S3 successfully pushed the temperature data to the cloud.
 
 SELECT * FROM sensor_data 
 ORDER BY created_at DESC;
