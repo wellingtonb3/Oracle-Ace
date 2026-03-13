@@ -13,7 +13,7 @@ This project demonstrates a low-cost, scalable end-to-end IoT solution designed 
 
 As an **OCI Certified professional**, I designed this architecture to prove that enterprise-grade cloud tools can be seamlessly integrated with edge computing for high-performance results.
 
-![Swimming Pool](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/images/Swimming%20pool.png)
+![Diagrama do Projeto](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/docs/Diagram.png)
 ---
 
 ## 🚀 Key Features
@@ -49,9 +49,10 @@ The system follows a 3-tier architecture:
 
 1. **Configure OCI:** Set up your Autonomous Database and obtain your OCI Wallet or REST Endpoint.
 2. **Flash ESP32:** Install MicroPython on your ESP32 board.
-3. **Deploy Code:** Update `config.py` with your Wi-Fi credentials and OCI details, then upload the `/src` files.
+3. **Deploy Code:** Use `main.py` with your Wi-Fi credentials and OCI details, then upload the `/src` files.
 4. **Monitor:** Access your OCI Console to view real-time data flowing into your tables.
-
+   
+![Swimming Pool](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/images/Swimming%20pool.png)
 ---
 
 ## 🏆 Oracle ACE Apprentice Milestone
