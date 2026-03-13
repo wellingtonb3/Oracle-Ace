@@ -2,7 +2,7 @@
 Oracle Ace Program for OCI Certified
 
 
-# IoT Edge-to-Cloud: Real-Time Agricultural Monitoring with OCI & MicroPython
+# IoT Edge-to-Cloud: Real-Time Monitoring with OCI
 
 ![OCI Realtime](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/images/OCI%20Realtime.png)
 
