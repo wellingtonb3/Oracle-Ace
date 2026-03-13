@@ -4,6 +4,8 @@ Oracle Ace Program for OCI Certified
 
 # IoT Edge-to-Cloud: Real-Time Agricultural Monitoring with OCI & MicroPython
 
+![OCI Realtime](https://raw.githubusercontent.com/wellingtonb3/Oracle-Ace/main/images/OCI%20Realtime.png)
+
 ## 📌 Project Overview
 
 This project demonstrates a low-cost, scalable end-to-end IoT solution designed for agricultural intelligence and environmental security. By leveraging **MicroPython** on an **ESP32** and the power of **Oracle Cloud Infrastructure (OCI)**, I have created a system that monitors environmental data in real-time, providing high-quality data ingestion into an **Oracle Autonomous Database**.
